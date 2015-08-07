@@ -1,0 +1,66 @@
+/*
+Error: File to import not found or unreadable: modular-scale.
+       Load paths:
+         /Users/blacktails2/Desktop/Tatazumai/HP/sass
+         /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.1/stylesheets
+         Compass::SpriteImporter
+        on line 2 of /Users/blacktails2/Desktop/Tatazumai/HP/sass/style.scss
+
+1: @charset "utf-8";
+2: @import "modular-scale"; 
+3: $textblack: #1A1A1A;
+4: 
+5: @font-face{
+6:     font-family: "Yu";
+7:     src: url(itcedscr.ttf);
+
+Backtrace:
+/Users/blacktails2/Desktop/Tatazumai/HP/sass/style.scss:2
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.1/bin/compass:44:in `call'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:18:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: modular-scale.\A        Load paths:\A          /Users/blacktails2/Desktop/Tatazumai/HP/sass\A          /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-core-1.0.1/stylesheets\A          Compass::SpriteImporter\A         on line 2 of /Users/blacktails2/Desktop/Tatazumai/HP/sass/style.scss\A \A 1: @charset \"utf-8\";\A 2: @import \"modular-scale\"; \A 3: $textblack: #1A1A1A;\A 4: \A 5: @font-face{\A 6:     font-family: \"Yu\";\A 7:     src: url(itcedscr.ttf);"; }

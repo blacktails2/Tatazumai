@@ -1,0 +1,29 @@
+@charset "utf-8";
+@import "modular-scale"; 
+$textblack: #1A1A1A;
+
+@font-face{
+    font-family: "Yu";
+    src: url(itcedscr.ttf);
+}
+@font-face{
+    font-family: "Minionit";
+    src: url(MinionPro-It.otf);
+}
+html{
+	color: $textblack;
+	font-family: "Yu";
+}
+.en{
+	font-family: "Minionit"
+}
+.center{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#logo{
+	margin-right: 30%;
+	width: 20%;
+}
