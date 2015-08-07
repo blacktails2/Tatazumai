@@ -11,8 +11,11 @@ html { color: #1A1A1A; font-family: "Yu"; }
 #logo2 { top: 10%; left: 15%; position: absolute; }
 #logo2 p { font-size: 30px; }
 
-.toplink { position: relative; width: 50px; }
-.toplink :hover { border-bottom: solid black 2px; }
-.toplink p { font-size: 25px; }
+.toplink { height: 30px; position: relative; width: 50px; font-size: 25px; transition: all 0.3s ease-in-out; }
+.toplink:hover { border-bottom: solid black 2px; }
 .toplink a { color: #1A1A1A; }
-.toplink a :hover { color: #555555; }
+.toplink a:hover { color: black; }
+
+.six, .columns { text-align: center; }
+
+.menu { margin-top: 10%; }

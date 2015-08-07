@@ -41,18 +41,24 @@ html{
 	}
 }
 .toplink{
+	height: 30px;
 	position: relative;
 	width: 50px;
-	:hover{
+	font-size: 25px;
+	transition: all 0.3s ease-in-out;
+	&:hover{
 		border-bottom: solid black 2px;
-	}
-	p{
-		font-size: 25px;
 	}
 	a{
 		color: $textblack;
-		:hover{
-			color: $hoverblack;
+		&:hover{
+			color: black;
 		}
 	}
+}
+.six, .columns{
+	text-align: center;
+}
+.menu{
+	margin-top: 10%;
 }
