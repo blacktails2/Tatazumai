@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "modular-scale"; 
 $textblack: #1A1A1A;
+$hoverblack: #555555;
 
 @font-face{
     font-family: "Yu";
@@ -15,7 +16,7 @@ html{
 	font-family: "Yu";
 }
 .en{
-	font-family: "Minionit"
+	font-family: "Minionit";
 }
 .center{
 	display: block;
@@ -24,6 +25,34 @@ html{
 	text-align: center;
 }
 #logo{
-	margin-right: 30%;
+	display: block;
+	margin-left: 73%;
+	margin-top: 30px;
+	margin-bottom: 50px;
 	width: 20%;
+	max-width: 200px;
+}
+#logo2{
+	top: 10%;
+	left: 15%;
+	position: absolute;
+	p{
+		font-size: 30px;
+	}
+}
+.toplink{
+	position: relative;
+	width: 50px;
+	:hover{
+		border-bottom: solid black 2px;
+	}
+	p{
+		font-size: 25px;
+	}
+	a{
+		color: $textblack;
+		:hover{
+			color: $hoverblack;
+		}
+	}
 }
