@@ -61,5 +61,12 @@ a { transition: all 0.2s ease; text-decoration: none; color: #1A1A1A; }
 a:hover { color: #666666; }
 
 .hoimg a { background-color: #fff; transition: all 0.2s ease; }
-.hoimg a:hover { background-color: #fff; opacity: 0.5; filter: alpha(opacify=50); -ms-filter: alpha(opacify=50); transition: all 0.1s ease; }
+.hoimg a:hover { background-color: #fff; opacity: 0.5; filter: alpha(opacify=50); -ms-filter: alpha(opacify=50); }
 .hoimg a:active { background-color: #000; opacity: 0.5; filter: alpha(opacify=50); -ms-filter: alpha(opacify=50); }
+
+@media (min-width: 765px) { #akikoph { margin-top: 90px; }
+  #andoph { margin-top: 33px; }
+  #keisukeph { margin-top: 40px; }
+  #michikoph { margin-top: 4px; }
+  #mitaniph { margin-top: 59px; }
+  #tsujiph { margin-top: 38px; } }

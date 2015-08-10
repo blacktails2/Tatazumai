@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import "modular-scale"; 
+@import "compass";
 $textblack: #1A1A1A;
 $hoverblack: #666666;
 
@@ -211,7 +212,6 @@ a{
 			opacity: 0.5;
 			filter: alpha(opacify=50);
 			-ms-filter: alpha(opacify=50);
-			transition: all 0.1s ease;
 		}
 		&:active{
 			background-color: #000;
@@ -219,5 +219,25 @@ a{
 			filter: alpha(opacify=50);
 			-ms-filter: alpha(opacify=50);
 		}
+	}
+}
+@media(min-width: 765px){
+	#akikoph{
+		margin-top: 90px;
+	}
+	#andoph{
+		margin-top: 33px;
+	}
+	#keisukeph{
+		margin-top: 40px;
+	}
+	#michikoph{
+		margin-top: 4px;
+	}
+	#mitaniph{
+		margin-top: 59px;
+	}
+	#tsujiph{
+		margin-top: 38px;
 	}
 }
