@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import "modular-scale"; 
+@import "compass";
+@media(min-width: 765px){
+	#akikoph{
+		margin-top: 12px;
+	}
+	#andoph2{
+		margin-top: 19px;
+	}
+	#andoph{
+		margin-top: 0px;
+	}
+	#keisukeph{
+		margin-top: 0px;
+	}
+	#keisukeph2{
+		margin-top: 12px;
+	}
+	#michikoph{
+		margin-top: 4px;
+	}
+	#mitaniph{
+		margin-top: 0px;
+	}
+	#mitaniph2{
+		margin-top: 45px;
+	}
+	#tsujiph{
+		margin-top: 0px;
+	}
+	#tsujiph2{
+		margin-top: 14px;
+	}
+}
