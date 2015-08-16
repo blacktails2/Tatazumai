@@ -6,14 +6,14 @@
 <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
 <!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
 <!--[if gt IE 9]><!--> <html class="no-js" lang="ja" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
 	<meta charset="utf-8">
 
 	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
 			 More info: h5bp.com/b/378 -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>佇まい-Tatazumai</title>
+	<title>佇まい-book</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="author" content="humans.txt">
@@ -21,13 +21,10 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 
 	<!-- Facebook Metadata /-->
-	<meta property="og:title" content="佇まい-Tatazumai" />
-	<meta property="og:description" content="2015年9月4日から9月8日までフランス･パリのMUJI FORUM DES HALLES PLACE CARREEで開催される佇まい-Tatazumai展のホームページです。" />
-	<meta property="og:type" content="Website" />
-	<meta property="og:url" content="http://www.momogusa.jp/Tatazumai/html/index.html" />
-	<meta property="og:image" content="http://www.momogusa.jp/Tatazumai/image/facebook.png" />
-	<meta property="og:locale" content="ja_JP" />
-
+	<meta property="fb:page_id" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:description" content=""/>
+	<meta property="og:title" content=""/>
 
 	<!-- Google+ Metadata /-->
 	<meta itemprop="name" content="">
@@ -38,42 +35,49 @@
 
 	<!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
 		 However, there is a blank style.css in the css directory should you prefer -->
-	<link rel="stylesheet" href="css/gumby.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="grids.css">
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="../css/gumby.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../grids.css">
+	<link rel="stylesheet" href="../css/animate.css">
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 
-	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+	<script src="../js/libs/modernizr-2.6.2.min.js"></script>
 </head>
 
 <body>
 		<div>
 			<div>
-				<img src="image/logo.svg" id="logo">
+				<a href="../index.html"><img src="../image/logo.svg" id="logoin"></a>
 			</div>
-			<div id="logo2">
-				<p class="en">Tatazumai</p>
+			<div class="row top">
+				<div class="twelve columns">
+					<h2 id="title"><a href="../index.html">Tatazumai</a></h2>
+					<h4>本「佇まい」</h4>
+				</div>
 			</div>
-			<div class="row menu">
-				<div class="four columns">
-					<p class="en toplink center" id="info"><a href="html/info.html">info</a>/<a href="fr/info.html">fr</a></p>
+			<div class="row">
+				<div class="five columns">
+					<img src="../image/book2.jpg">
 				</div>
-				<div class="four columns">
-					<p class="en toplink center" id="six"><a href="html/six.html">six</a>/<a href="fr/six.html">fr</a></p>
+				<div class="seven columns">
+					<p class="text">
+						「佇まい」展のために、6人の作家のこと、日本の現在の生活工芸のことなどをまとめた本を作りました。一冊1000円です。パリの展覧会場以外では以下のショップ、ギャラリーでお買い求め出来ます。どうぞお問い合わせください。<br>
+						10cm→wood@10cm.biz<br>
+						ギャルリももぐさ →galerie@momogusa.jp<br>
+						factory zoomer/shop→info@factory-zoomer.com<br><br>
+						We made a book for the exhibition.Here you can buy in 3 galleries. It becomes a book ￥1000. More distant will take shipping. Either.please contact us.<br>
+						10cm→wood@10cm.biz<br>
+						Gallery Momogusa →galerie@momogusa.jp<br>
+						factory zoomer/shop→info@factory-zoomer.com
+					</p>
 				</div>
-				<div class="four columns">
-					<p class="en toplink center" id="book"><a href="html/book.html">book</a></p>
 			</div>
-			<div class="row menu">
-				<div class="four columns">
-					<a href="https://www.facebook.com/tatazumai.EXCO?fref=ts"><div class="shbtn center"><p class="shtext">Facebook</p></div></a>
+			<div class="row topmargin">
+				<div class="six columns">
+					<p class="en toplink3 center"><a href="info.html" class="icon2"><i class="icon-left-dir"></i>info</a></p>
 				</div>
-				<div class="four columns">
-					<a href="http://www.facebook.com/share.php?u=http://www.momogusa.jp/Tatazumai/index.html" onclick="window.open(encodeURI(decodeURI(this.href)), 'FBwindow', 'width=554, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;" rel="nofollow"><div class="shbtn3 center"><p class="shtext">Facebook Share</p></div></a>
-				</div>
-				<div class="four columns">
-					<a href="http://twitter.com/share?text=佇まい-Tatazumai&url=http://www.momogusa.jp/Tatazumai/index.html&hashtags=佇まい展" onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" rel="nofollow"><div class="shbtn2 center"><p class="shtext">Tweet</p></div></a>
+				<div class="six columns">
+					<p class="en toplink2 center"><a href="six.html" class="icon">six<i class="icon-right-dir"></i></a></p>
 				</div>
 			</div>
 		</div>
@@ -102,17 +106,17 @@
 	<!--
 	Include gumby.js followed by UI modules followed by gumby.init.js
 	Or concatenate and minify into a single file -->
-	<script gumby-touch="js/libs" src="js/libs/gumby.js"></script>
-	<script src="js/libs/ui/gumby.retina.js"></script>
-	<script src="js/libs/ui/gumby.fixed.js"></script>
-	<script src="js/libs/ui/gumby.skiplink.js"></script>
-	<script src="js/libs/ui/gumby.toggleswitch.js"></script>
-	<script src="js/libs/ui/gumby.checkbox.js"></script>
-	<script src="js/libs/ui/gumby.radiobtn.js"></script>
-	<script src="js/libs/ui/gumby.tabs.js"></script>
-	<script src="js/libs/ui/gumby.navbar.js"></script>
-	<script src="js/libs/ui/jquery.validation.js"></script>
-	<script src="js/libs/gumby.init.js"></script>
+	<script gumby-touch="../js/libs" src="../js/libs/gumby.js"></script>
+	<script src="../js/libs/ui/gumby.retina.js"></script>
+	<script src="../js/libs/ui/gumby.fixed.js"></script>
+	<script src="../js/libs/ui/gumby.skiplink.js"></script>
+	<script src="../js/libs/ui/gumby.toggleswitch.js"></script>
+	<script src="../js/libs/ui/gumby.checkbox.js"></script>
+	<script src="../js/libs/ui/gumby.radiobtn.js"></script>
+	<script src="../js/libs/ui/gumby.tabs.js"></script>
+	<script src="../js/libs/ui/gumby.navbar.js"></script>
+	<script src="../js/libs/ui/jquery.validation.js"></script>
+	<script src="../js/libs/gumby.init.js"></script>
 
 	<!--
 	Google's recommended deferred loading of JS
@@ -136,8 +140,8 @@
 	else window.onload = downloadJSAtOnload;
 	</script> -->
 
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
+	<script src="../js/plugins.js"></script>
+	<script src="../js/main.js"></script>
 
 	<!-- Change UA-XXXXX-X to be your site's ID -->
 	<!--<script>

@@ -314,12 +314,12 @@ a{
 	}
 }
 .shbtn{
-	border: solid 2px $textblack;
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	width: 90px;
-	height: 30px;
+	border: solid 1px $textblack;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	width: 80px;
+	height: 20px;
 	transition: all 0.2s ease;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -332,12 +332,30 @@ a{
 	}
 }
 .shbtn2{
-	border: solid 2px $textblack;
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	width: 60px;
-	height: 30px;
+	border: solid 1px $textblack;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	width: 55px;
+	height: 20px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	&:hover{
+		border-color: $hoverblack;
+		& > p:hover{
+			color: $hoverblack;
+		}
+	}
+}
+.shbtn3{
+	border: solid 1px $textblack;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	width: 110px;
+	height: 20px;
 	transition: all 0.2s ease;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -351,7 +369,7 @@ a{
 }
 .shtext{
 	font-family: "Helvetica Neue", Calibri, Corbel, san-serif;
-	font-size: 16px;
+	font-size: 12px;
 	color: #textblack;
 	&:hover{
 		color: #hoverblack;
