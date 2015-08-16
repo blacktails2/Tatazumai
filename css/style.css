@@ -12,27 +12,27 @@ html { color: #1A1A1A; font-family: "游明朝体", YuMincho, "Yu Mincho", "KozM
 #logo2 p { font-size: 30px; }
 
 .toplink { cursor: pointer; text-decoration: none; height: 35px; position: relative; width: 100px; font-size: 25px; }
-.toplink::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); background-color: black; transition: all 0.2s ease; }
-.toplink:hover::after { transform: scaleX(1); }
-.toplink a { color: #1A1A1A; transition: all 0.2s ease; }
+.toplink::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); -webkit-transform: scaleX(0); -o-transform: scaleX(0); -moz-transform: scaleX(0); background-color: black; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
+.toplink:hover::after { transform: scaleX(1); -o-transform: scaleX(1); -webkit-transform: scaleX(1); -moz-transform: scaleX(1); }
+.toplink a { color: #1A1A1A; transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; }
 .toplink a:hover { color: #666666; }
 
 .toplink2 { cursor: pointer; text-decoration: none; height: 35px; position: relative; width: 80px; font-size: 25px; }
-.toplink2::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); background-color: black; transition: all 0.2s ease; }
-.toplink2:hover::after { transform: scaleX(1); }
-.toplink2 a { color: #1A1A1A; transition: all 0.2s ease; }
+.toplink2::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); -moz-transform: scaleX(0); -o-transform: scaleX(0); -webkit-transform: scaleX(0); background-color: black; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
+.toplink2:hover::after { transform: scaleX(1); -moz-transform: scaleX(1); -o-transform: scaleX(1); -webkit-transform: scaleX(1); }
+.toplink2 a { color: #1A1A1A; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
 .toplink2 a:hover { color: #666666; }
 
 .toplink3 { cursor: pointer; text-decoration: none; height: 35px; position: relative; width: 90px; font-size: 25px; }
-.toplink3::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); background-color: black; transition: all 0.2s ease; }
-.toplink3:hover::after { transform: scaleX(1); }
-.toplink3 a { color: #1A1A1A; transition: all 0.2s ease; }
+.toplink3::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); -moz-transform: scaleX(0); -o-transform: scaleX(0); -webkit-transform: scaleX(0); background-color: black; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
+.toplink3:hover::after { transform: scaleX(1); -moz-transform: scaleX(1); -o-transform: scaleX(1); -webkit-transform: scaleX(1); }
+.toplink3 a { color: #1A1A1A; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
 .toplink3 a:hover { color: #666666; }
 
 .toplink4 { cursor: pointer; text-decoration: none; height: 35px; position: relative; width: 140px; font-size: 25px; }
-.toplink4::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); background-color: black; transition: all 0.2s ease; }
-.toplink4:hover::after { transform: scaleX(1); }
-.toplink4 a { color: #1A1A1A; transition: all 0.2s ease; }
+.toplink4::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; transform: scaleX(0); -moz-transform: scaleX(0); -o-transform: scaleX(0); -webkit-transform: scaleX(0); background-color: black; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
+.toplink4:hover::after { transform: scaleX(1); -moz-transform: scaleX(1); -o-transform: scaleX(1); -webkit-transform: scaleX(1); }
+.toplink4 a { color: #1A1A1A; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
 .toplink4 a:hover { color: #666666; }
 
 .six, .columns { text-align: center; }
@@ -67,12 +67,23 @@ i { vertical-align: middle; }
 
 .icon2 { padding-right: 13px; }
 
-a { transition: all 0.2s ease; text-decoration: none; color: #1A1A1A; }
+a { transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; text-decoration: none; color: #1A1A1A; }
 a:hover { color: #666666; }
 
-.hoimg a { background-color: #fff; transition: all 0.2s ease; }
+.hoimg a { background-color: #fff; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
 .hoimg a:hover { background-color: #fff; opacity: 0.5; filter: alpha(opacify=50); -ms-filter: alpha(opacify=50); }
 .hoimg a:active { background-color: #000; opacity: 0.5; filter: alpha(opacify=50); -ms-filter: alpha(opacify=50); }
+
+.shbtn { border: solid 2px #1A1A1A; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; width: 90px; height: 30px; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
+.shbtn:hover { border-color: #666666; }
+.shbtn:hover > p:hover { color: #666666; }
+
+.shbtn2 { border: solid 2px #1A1A1A; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; width: 60px; height: 30px; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; }
+.shbtn2:hover { border-color: #666666; }
+.shbtn2:hover > p:hover { color: #666666; }
+
+.shtext { font-family: "Helvetica Neue", Calibri, Corbel, san-serif; font-size: 16px; color: #textblack; }
+.shtext:hover { color: #hoverblack; }
 
 @media (min-width: 765px) { #akikoph { margin-top: 90px; }
   #andoph { margin-top: 33px; }
